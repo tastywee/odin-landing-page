@@ -5,11 +5,22 @@
 }
 
 body {
-    font-family: "Roboto", Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-family: Roboto, sans-serif;
 }
 
 header {
     background-color: #1F2937;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
 header .logo {
@@ -19,6 +30,7 @@ header .logo {
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
 header a {
@@ -29,6 +41,11 @@ header a {
 
 .hero {
     background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 16px 0;
 }
 
 .hero h1 {
@@ -40,6 +57,10 @@ header a {
 .hero h2 {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.info {
+    flex: 1;
 }
 
 .info h2 {
@@ -54,18 +75,26 @@ header a {
     font-style: italic;
     font-weight: lighter;
     color: #1F2937;
+    flex: 1;
 }
 
 button {
     color: #E5E7EB;
+    padding: 8px 16px;
     background-color: #3882F6;
+    border: 1px none #3882F6;
+    border-radius: 8px;
 }
 
 .call-to-action {
     color: #E5E7EB;
     background-color: #3882F6;
+    flex: 1;
 }
 
 footer {
+    color: #E5E7EB;
     background-color: #1F2937;
+    text-align: center;
+    padding: 16px 0;
 }
