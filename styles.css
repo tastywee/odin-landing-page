@@ -4,6 +4,68 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "Roboto", Helvetica, sans-serif;
+}
+
 header {
-    
+    background-color: #1F2937;
+}
+
+header .logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.hero h2 {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.info h2 {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+button {
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+.call-to-action {
+    color: #E5E7EB;
+    background-color: #3882F6;
+}
+
+footer {
+    background-color: #1F2937;
 }
